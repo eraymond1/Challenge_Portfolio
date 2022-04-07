@@ -65,10 +65,11 @@ header nav ul {
 }
 
 #about-me h2 {
-    margin: 0 20px 0 20px;
+    margin: 0 20px 0 90px;
     text-align: right;
 }
 
 .me p {
     margin-left: 20px;
+    margin-right: 50px;
 }
