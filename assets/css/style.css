@@ -16,6 +16,7 @@ header h1 {
     width: 180px;
     text-align: right;
     padding-right: 10px;
+    margin-top: 3px;
 }
 
 header nav ul li a {
