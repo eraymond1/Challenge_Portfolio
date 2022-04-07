@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 45px;
+    height: 50px;
 }
 
 header h1 {
@@ -53,24 +53,63 @@ header nav ul {
     color: black;
     padding: 0 10px 0 10px;
     border-radius: 20px;
-}
+} 
 
 #about-me {
     display: flex;
     margin-top: 20px;
-}
+} 
 
 .vl {
     border-left: 6px solid black;
     
-}
+} 
 
 #about-me h2 {
     margin: 0 20px 0 90px;
     text-align: right;
-}
+} 
 
 .me p {
     margin-left: 20px;
     margin-right: 50px;
+} 
+
+#work {
+    display: flex;
+    margin-top: 20px;
+} 
+
+
+
+#work h2 {
+    margin: 0 20px 0 95px;
+    text-align: right;
+} 
+
+.contact {
+    display: flex;
+    margin-top: 20px;
+} 
+
+#contact {
+    display: flex;
+    margin-top: 20px;
 }
+
+.contact h2 {
+    margin: 0 20px 0 75px;
+    text-align: right;
+}
+
+.contact-methods {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.contact-methods li {
+    padding: 10px 10px 10px 10px;
+    
+    list-style: none;
+} 
