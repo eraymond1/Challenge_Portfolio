@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(25,39,52);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 45px;
+}
+
+header h1 {
+    color: black;
+    background-color: aquamarine;
+    width: 180px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+header nav ul li a {
+    color: aquamarine;
+}
+
+header nav ul li {
+    padding: 10px 10px 10px 10px;
+    margin-right: 50px;
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.hero {
+    display: flex;
+    height: 150px;
+    background-image: url(../images/bg-hero.jpeg);
+    background-size: cover;
+    color: aquamarine;
+    justify-content: right;
+}
+
+.hero-text h2 {
+    text-align: end;
+    margin-top: 100px;
+    margin-right: 50px;
+    background-color: aquamarine;
+    color: black;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+}
+
+#about-me {
+    display: flex;
+    margin-top: 20px;
+}
+
+.vl {
+    border-left: 6px solid black;
+    
+}
+
+#about-me h2 {
+    margin: 0 20px 0 20px;
+    text-align: right;
+}
+
+.me p {
+    margin-left: 20px;
+}
