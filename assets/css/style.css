@@ -29,12 +29,16 @@ header h1 {
 
 header nav ul li a {
     color: aquamarine;
+    text-decoration: none;
+    border-bottom: 2px solid aquamarine;
+    padding: 0 10px 0 10px;
 }
 
 header nav ul li {
     padding: 10px 10px 10px 10px;
     margin-right: 50px;
     list-style: none;
+    
 }
 
 header nav ul {
@@ -84,21 +88,64 @@ header nav ul {
 .me p {
     margin-left: 20px;
     margin-right: 50px;
-} 
+}
+
+/*Project Section Start*/
 
 #work {
     display: flex;
     margin-top: 20px;
-} 
-
-
+}
 
 #work h2 {
     margin: 0 20px 0 100px;
     text-align: right;
     font-size: 45px;
     width: auto;
+}
+
+.vl div {
+    text-align: center;
+}
+
+.projects {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.projects a{
+    text-align: center;
 } 
+
+.project img {
+    position: relative;
+    border: 3px solid aquamarine;
+    width: 80vw;
+    height:500px;
+}
+
+.bt-left {
+    position: absolute;
+    bottom: 33%;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.rb-label {
+    font-size: 15px;
+}
+
+
+.projects a {
+    
+    color: aquamarine;
+}
+
+/*Project Section End*/
 
 .contact {
     display: flex;
@@ -110,10 +157,11 @@ header nav ul {
 .vl-contact {
     border-left: 6px solid black;
     display: flex;
-    justify-content: space-around;
-    width: 98vw;
-    align-items: center;
-    font-weight: bolder;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center; 
+    font-weight: bolder; 
+    width: 90vw;
     font-size: 25px;
     color:aquamarine;
 }
