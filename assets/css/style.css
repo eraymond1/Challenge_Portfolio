@@ -2,6 +2,14 @@
     margin: 0;
 }
 
+body {
+    background-color: darkgray;
+}
+
+h2 {
+    color: aquamarine;
+}
+
 header {
     background-color: rgb(25,39,52);
     display: flex;
@@ -63,11 +71,14 @@ header nav ul {
 .vl {
     border-left: 6px solid black;
     
+    
 } 
 
 #about-me h2 {
     margin: 0 20px 0 90px;
     text-align: right;
+    font-size: 45px;
+    width:auto;
 } 
 
 .me p {
@@ -83,33 +94,33 @@ header nav ul {
 
 
 #work h2 {
-    margin: 0 20px 0 95px;
+    margin: 0 20px 0 100px;
     text-align: right;
+    font-size: 45px;
+    width: auto;
 } 
 
 .contact {
     display: flex;
     margin-top: 20px;
+    
+    
 } 
 
-#contact {
+.vl-contact {
+    border-left: 6px solid black;
     display: flex;
-    margin-top: 20px;
+    justify-content: space-around;
+    width: 98vw;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color:aquamarine;
 }
 
 .contact h2 {
-    margin: 0 20px 0 75px;
+    margin: 0 20px 0 58px;
     text-align: right;
+    font-size: 45px;
+    width: auto;
 }
-
-.contact-methods {
-    display: flex;
-    
-    justify-content: space-between;
-}
-
-.contact-methods li {
-    padding: 10px 10px 10px 10px;
-    
-    list-style: none;
-} 
