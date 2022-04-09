@@ -84,6 +84,10 @@ header nav ul {
 .me p {
     margin-left: 20px;
     margin-right: 50px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(000, 000, 000);
 }
 
 /*Project Section Start*/
@@ -201,6 +205,8 @@ h3 {
     /* this will be applied on any screen smaller than 980px */
 
     header {
+        width: 97%;
+        padding-right: 42px;
         padding-bottom: 0;
         justify-content: center;
         position: relative;
@@ -221,10 +227,27 @@ h3 {
         font-size: 20px;
     }
 
+    .hero {
+        display: flex;
+        height: 150px;
+        width: 100%;
+        background-size: 100%;
+        color: aquamarine;
+        justify-content: right;
+    }
+
     .about-me p {
         font-size: 1.5em ;
         font-family:'Times New Roman', Times, serif;
         
+    }
+
+    #work img {
+        width: 80%;
+    }
+
+    #work h3 {
+        height: 10%;
     }
 
     .contact h2 {
@@ -248,9 +271,9 @@ h3 {
         height: 40%
     }
 
-    .work h3 {
+    #work h3 {
         width: 30%;
-        height:20%;
+        height: 25%;
     }
 
     header nav ul {
@@ -273,12 +296,12 @@ h3 {
 /*Media Query FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
 
-    .work img {
+    #work img {
         width: 70%;
         height: 40%
     }
 
-    .work h3 {
+    #work h3 {
         width: 40%;
         height:30%;
     }
@@ -291,6 +314,18 @@ h3 {
 
     header nav ul li a {
         font-size: 18px;
+    }
+
+    #about-me h2 {
+        font-size: 29px;
+    }
+
+    #work h2 {
+        font-size: 28px;
+    }
+
+    #contact-me h2 {
+        font-size: 32px;
     }
 
     .hero h2 {
