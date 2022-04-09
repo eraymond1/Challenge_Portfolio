@@ -94,7 +94,7 @@ header nav ul {
 
 #work {
     display: flex;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 #work h2 {
@@ -177,10 +177,12 @@ h3 {
 
 .contact {
     display: flex;
-    margin-top: 20px;
+    margin-top: 80px;
+    
 }
 
 .vl-contact {
+    background-color: rgb(25,39,52);
     border-left: 6px solid black;
     display: flex;
     flex-wrap: wrap;
@@ -190,6 +192,16 @@ h3 {
     width: 90vw;
     font-size: 25px;
     color:aquamarine;
+}
+
+.vl-contact div {
+    border-bottom: 2px solid aquamarine;
+    padding: 0 10px 0 10px;
+}
+
+.vl-contact a {
+    color: aquamarine;
+    text-decoration: none;
 }
 
 .contact h2 {
