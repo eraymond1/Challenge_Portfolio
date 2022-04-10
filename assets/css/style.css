@@ -68,6 +68,7 @@ header nav ul {
 #about-me {
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .vl {
@@ -94,6 +95,7 @@ header nav ul {
 
 #work {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 80px;
 }
 
@@ -177,6 +179,7 @@ h3 {
 
 .contact {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 80px;
     
 }
@@ -248,10 +251,26 @@ h3 {
         justify-content: right;
     }
 
+    #about-me {
+        justify-content: space-evenly;
+    }
+
+    #about-me h2 {
+        text-align: center;
+        margin: 0 20px 0 0;
+    }
+
     .about-me p {
         font-size: 1.5em ;
         font-family:'Times New Roman', Times, serif;
+        text-align: justify;
         
+    }
+
+    #work h2 {
+       text-align: center;
+       margin: 0 0 0 35%;
+       
     }
 
     #work img {
@@ -267,10 +286,16 @@ h3 {
     }
 
     .vl-contact {
-        display: inline-block;
-        flex-wrap: wrap;
-        margin-top: 50px;
+          /* display: inline-block; */
+          /* align-items: center; */
+        /* flex-wrap: wrap; */
+        margin-top: 25px;
+        /* justify-content: center; */
        text-align: center;
+    } 
+
+    .vl-contact h2 {
+       align-items: center;
     }
 }
 
@@ -302,11 +327,32 @@ h3 {
         width: 90%;
         text-align: center;
     }
+
+    #about-me {
+       
+
+    }
+
+    /* #about-me p {
+        display:absolute;
+        top:20px;
+        left: 0;
+        /* flex-wrap: wrap; */
+        
+   /* } */
+
+    .vl {
+        border: none;
+    }
+
+
     
 }
 
 /*Media Query FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+
+    
 
     #work img {
         width: 70%;
